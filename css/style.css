@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    margin: auto;
+    color: white;
+}
+
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  rgba(77, 71, 71, 0.39);
+    flex-basis: 100%;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: multiply;
+    background-position: center;
+    padding-bottom: 150px;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 15px 5px;
+}
+
+.heading .Adventure{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 22px 0 0;
+    color: white;
+    font-size: 17px;
+}
+
+
+nav ul li a:hover{
+    border: 5px solid white;
+    border-radius: 15px;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin: 15px auto 30px; 
+    display: block;
+    border-radius: 5px;
+
+}
+h1{
+    font-size: 63px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.911);
+    border-radius: 25px;
+    margin: auto;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.event{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 70px;
+}
+.section{
+    display: flex;
+    margin:auto;
+    padding: 0;
+    flex-direction: row;
+    max-width: 900px;
+}
+
+.section h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 30px;
+    margin: 0;
+    
+}
+section{
+    width: 50%;
+    padding: 0px 35px;
+    text-align: center;
+}
+
+.section img{
+    box-shadow: 10px 10px 1px rgba(168, 161, 161, 0.637);
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+}
+.section p{
+    display: block;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+.section a{
+    padding: 30px 30px;
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+.explore{
+    background: url(../images/father.jpg);
+    background-color: rgba(1, 1, 84, 0.542);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.explore h3{
+    font-size: 55px;
+    font-weight: 500;
+    margin: 0;
+}
+.explore .line{
+    align-items: start;
+    margin-left: 0;
+
+}
+.explore p{
+    text-align: justify;
+}
+.explore a{}
+.container{
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    padding-left: 800px;
+    padding-right: 200px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.upcoming{
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    gap: 20px;
+    padding-top: 100px;
+
+}
+.write{
+    width: 33.33%;
+}
+.write h4{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.write .line{
+    align-items: start;
+    margin: 0;
+    margin-top: 15px;
+}
+.write p{
+    margin-top: 40px;
+}
+.write button{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.image {
+    width: 33.33%;
+    object-fit: cover;
+}
+
+.image .img1{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    padding-bottom: 20px;
+    object-position: center;
+}
+
+.image .img2{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 20px;
+    object-position: center;
+}
+
+
+
+.footermain{
+    width: 100%;
+    background-color: #ff0000;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.footermain p{
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
